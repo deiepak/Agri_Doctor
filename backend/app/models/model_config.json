@@ -1,0 +1,103 @@
+{
+  "tomato_common": {
+    "model_file": "tomato_common.h5",
+    "plant_type": "tomato",
+    "tier": "common",
+    "num_classes": 5,
+    "class_labels": [
+      "early_blight",
+      "late_blight",
+      "septoria_leaf_spot",
+      "leaf_curl_virus",
+      "healthy"
+    ],
+    "class_folders": [
+      "Tomato___Early_blight",
+      "Tomato___Late_blight",
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "Tomato___healthy"
+    ],
+    "accuracy": 0.5421276688575745,
+    "loss": 1.2016688585281372,
+    "phase1_best_accuracy": 0.6480851173400879,
+    "phase2_best_accuracy": 0.5421276688575745,
+    "training_config": {
+      "img_size": [
+        224,
+        224
+      ],
+      "batch_size": 64,
+      "epochs": 200,
+      "fine_tune_epochs": 50,
+      "fine_tune_layers": 50,
+      "mixed_precision": true
+    }
+  },
+  "tomato_uncommon": {
+    "model_file": "tomato_uncommon.h5",
+    "plant_type": "tomato",
+    "tier": "uncommon",
+    "num_classes": 5,
+    "class_labels": [
+      "leaf_mold",
+      "spider_mites",
+      "target_spot",
+      "bacterial_spot",
+      "mosaic_virus"
+    ],
+    "class_folders": [
+      "Tomato___Leaf_Mold",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Target_Spot",
+      "Tomato___Bacterial_spot",
+      "Tomato___Tomato_mosaic_virus"
+    ],
+    "accuracy": 0.5078299641609192,
+    "loss": 1.2324790954589844,
+    "phase1_best_accuracy": 0.5615212321281433,
+    "phase2_best_accuracy": 0.5078299641609192,
+    "training_config": {
+      "img_size": [
+        224,
+        224
+      ],
+      "batch_size": 64,
+      "epochs": 200,
+      "fine_tune_epochs": 50,
+      "fine_tune_layers": 50,
+      "mixed_precision": true
+    }
+  },
+  "potato_all": {
+    "model_file": "potato_all.h5",
+    "plant_type": "potato",
+    "tier": "common",
+    "num_classes": 3,
+    "class_labels": [
+      "potato_early_blight",
+      "potato_late_blight",
+      "healthy"
+    ],
+    "class_folders": [
+      "Potato___Early_blight",
+      "Potato___Late_blight",
+      "Potato___healthy"
+    ],
+    "accuracy": 0.7980364561080933,
+    "loss": 0.5666720271110535,
+    "phase1_best_accuracy": 0.8793829083442688,
+    "phase2_best_accuracy": 0.7980364561080933,
+    "training_config": {
+      "img_size": [
+        224,
+        224
+      ],
+      "batch_size": 64,
+      "epochs": 200,
+      "fine_tune_epochs": 50,
+      "fine_tune_layers": 50,
+      "mixed_precision": true
+    }
+  }
+}

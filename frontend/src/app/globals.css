@@ -1,0 +1,125 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css");
+@import "tailwindcss";
+
+/* Custom CSS Variables */
+:root {
+  --color-primary: #10B981;
+  --color-primary-dark: #059669;
+  --color-secondary: #F59E0B;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748B;
+}
+
+/* Touch optimizations for mobile */
+@media (pointer: coarse) {
+
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Cropper.js customizations */
+.cropper-view-box,
+.cropper-face {
+  border-radius: 0;
+}
+
+.cropper-line {
+  background-color: #10B981;
+}
+
+.cropper-point {
+  background-color: #10B981;
+  width: 10px;
+  height: 10px;
+}
+
+.cropper-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Animation utilities */
+@keyframes pulse-slow {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Remove input zoom on iOS */
+@supports (-webkit-touch-callout: none) {
+
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
+/* Safe area insets for notched devices */
+@supports (padding: max(0px)) {
+  .safe-area-inset-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .safe-area-inset-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+}

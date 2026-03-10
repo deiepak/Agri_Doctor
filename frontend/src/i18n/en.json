@@ -1,0 +1,100 @@
+{
+  "app": {
+    "title": "Plant Disease Identifier",
+    "subtitle": "AI-powered plant disease detection for farmers",
+    "disclaimer": "AI-assisted guidance only. Consult a local agriculture officer before using any chemical treatments.",
+    "internetRequired": "Internet connection required",
+    "loading": "Analyzing...",
+    "error": "Something went wrong. Please try again.",
+    "back": "Go Back",
+    "next": "Continue",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "retry": "Try Again"
+  },
+  "language": {
+    "select": "Select Language",
+    "en": "English",
+    "hi": "हिंदी",
+    "ne": "नेपाली"
+  },
+  "plant": {
+    "title": "Select Your Plant",
+    "subtitle": "Choose the plant type for accurate disease detection",
+    "tomato": "Tomato",
+    "potato": "Potato",
+    "rice": "Rice",
+    "wheat": "Wheat",
+    "required": "Please select a plant type to continue"
+  },
+  "capture": {
+    "title": "Capture Leaf Image",
+    "subtitle": "Take a clear photo of the affected leaf",
+    "camera": "Open Camera",
+    "upload": "Upload Image",
+    "dragDrop": "Drag and drop an image here, or click to select",
+    "retake": "Retake Photo",
+    "crop": "Crop Image",
+    "cropHint": "Adjust to focus on the affected leaf area",
+    "confirm": "Use This Image",
+    "tips": {
+      "title": "Tips for best results:",
+      "tip1": "Use natural lighting",
+      "tip2": "Focus on the affected area",
+      "tip3": "Keep the leaf flat",
+      "tip4": "Avoid shadows"
+    }
+  },
+  "analysis": {
+    "title": "Analysis Results",
+    "subtitle": "Based on AI image analysis",
+    "predictions": "Possible Diseases",
+    "confidence": "Confidence",
+    "highConfidence": "High confidence detection",
+    "lowConfidence": "Low confidence - more questions needed",
+    "uncertain": "Uncertain - please answer some questions",
+    "notes": "AI Observations"
+  },
+  "questions": {
+    "title": "Help Us Confirm",
+    "subtitle": "Answer these questions about your plant",
+    "progress": "Question {{current}} of {{total}}",
+    "yellow_spots": "Do you see yellow spots on the leaves?",
+    "leaf_curl": "Are the leaves curling or rolling?",
+    "white_powder": "Is there white powdery substance on leaves?",
+    "edge_drying": "Are the leaf edges drying or browning?",
+    "stem_rot": "Is there any rotting at the stem base?",
+    "wilting": "Is the plant wilting despite watering?",
+    "dark_spots": "Are there dark brown or black spots?",
+    "stunted_growth": "Is the plant showing stunted growth?"
+  },
+  "confirmation": {
+    "title": "Disease Identified",
+    "subtitle": "Based on image analysis and your responses",
+    "confidence": "Confidence Level",
+    "why": "Why we think this",
+    "viewTreatment": "View Treatment Options",
+    "notSure": "Still Unsure?",
+    "consultExpert": "Consult a local agriculture expert"
+  },
+  "treatment": {
+    "title": "Treatment Options",
+    "subtitle": "Recommended treatments for",
+    "tabs": {
+      "organic": "Organic",
+      "chemical": "Chemical",
+      "prevention": "Prevention"
+    },
+    "dosage": "Dosage",
+    "frequency": "Frequency",
+    "warning": "Safety Warning",
+    "disclaimer": "⚠️ Always follow product instructions. Consult a local agriculture officer before applying chemical treatments.",
+    "noTreatment": "No treatment information available"
+  },
+  "offline": {
+    "title": "No Internet Connection",
+    "message": "Please check your connection and try again"
+  }
+}

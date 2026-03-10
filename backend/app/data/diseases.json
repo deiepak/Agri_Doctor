@@ -1,0 +1,362 @@
+{
+    "tomato": [
+        {
+            "id": "early_blight",
+            "name": "Early Blight",
+            "scientific_name": "Alternaria solani",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Dark brown spots with concentric rings (target-like pattern) on lower leaves first"
+        },
+        {
+            "id": "late_blight",
+            "name": "Late Blight",
+            "scientific_name": "Phytophthora infestans",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": true,
+                "edge_drying": false,
+                "stem_rot": true,
+                "wilting": true,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Water-soaked spots that turn brown/black, white fuzzy growth on underside of leaves"
+        },
+        {
+            "id": "septoria_leaf_spot",
+            "name": "Septoria Leaf Spot",
+            "scientific_name": "Septoria lycopersici",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Small circular spots with dark borders and gray centers, starting on lower leaves"
+        },
+        {
+            "id": "bacterial_wilt",
+            "name": "Bacterial Wilt",
+            "scientific_name": "Ralstonia solanacearum",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": true,
+                "wilting": true,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "Sudden wilting of young leaves, brown discoloration in stem vascular tissue"
+        },
+        {
+            "id": "leaf_curl_virus",
+            "name": "Tomato Yellow Leaf Curl Virus",
+            "scientific_name": "TYLCV",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": true,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "Upward curling of leaves, yellowing, stunted growth, spread by whiteflies"
+        },
+        {
+            "id": "leaf_mold",
+            "name": "Leaf Mold",
+            "scientific_name": "Passalora fulva",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Pale greenish-yellow spots on upper leaf surface, olive-green to brown velvety mold on underside"
+        },
+        {
+            "id": "spider_mites",
+            "name": "Spider Mites (Two-spotted)",
+            "scientific_name": "Tetranychus urticae",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": true,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "Tiny yellow stippling on leaves, fine webbing on undersides, leaves become bronzed and dry"
+        },
+        {
+            "id": "target_spot",
+            "name": "Target Spot",
+            "scientific_name": "Corynespora cassiicola",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Small brown spots with concentric rings that enlarge to form target-like patterns"
+        },
+        {
+            "id": "bacterial_spot",
+            "name": "Bacterial Spot",
+            "scientific_name": "Xanthomonas vesicatoria",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Small, dark, water-soaked spots on leaves that become raised and scabby on fruits"
+        },
+        {
+            "id": "mosaic_virus",
+            "name": "Tomato Mosaic Virus",
+            "scientific_name": "ToMV",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": true,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "Mottled light and dark green mosaic pattern on leaves, leaf distortion, stunted growth"
+        }
+    ],
+    "potato": [
+        {
+            "id": "potato_late_blight",
+            "name": "Late Blight",
+            "scientific_name": "Phytophthora infestans",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": true,
+                "edge_drying": true,
+                "stem_rot": true,
+                "wilting": true,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Dark water-soaked lesions on leaves, white mold on underside, rapid spread in cool wet weather"
+        },
+        {
+            "id": "potato_early_blight",
+            "name": "Early Blight",
+            "scientific_name": "Alternaria solani",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Bull's eye pattern spots starting on older leaves, tissue between veins turns yellow"
+        },
+        {
+            "id": "potato_blackleg",
+            "name": "Blackleg",
+            "scientific_name": "Pectobacterium atrosepticum",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": true,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": true,
+                "wilting": true,
+                "dark_spots": true,
+                "stunted_growth": true
+            },
+            "description": "Black rot at stem base, slimy decay, leaves yellow and curl upward"
+        },
+        {
+            "id": "potato_common_scab",
+            "name": "Common Scab",
+            "scientific_name": "Streptomyces scabies",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": false
+            },
+            "description": "Rough, corky lesions on tuber surface (not visible on leaves)"
+        }
+    ],
+    "rice": [
+        {
+            "id": "rice_blast",
+            "name": "Rice Blast",
+            "scientific_name": "Magnaporthe oryzae",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": true
+            },
+            "description": "Diamond-shaped lesions with gray centers and brown borders on leaves"
+        },
+        {
+            "id": "bacterial_leaf_blight",
+            "name": "Bacterial Leaf Blight",
+            "scientific_name": "Xanthomonas oryzae",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": true,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": true,
+                "dark_spots": false,
+                "stunted_growth": false
+            },
+            "description": "Water-soaked lesions starting at leaf tips, turning yellow to white"
+        },
+        {
+            "id": "brown_spot",
+            "name": "Brown Spot",
+            "scientific_name": "Bipolaris oryzae",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Oval brown spots with yellow halos, commonly on nutrient-deficient plants"
+        },
+        {
+            "id": "sheath_blight",
+            "name": "Sheath Blight",
+            "scientific_name": "Rhizoctonia solani",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": true,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Irregular gray-green lesions on leaf sheaths that turn brown and spread upward"
+        }
+    ],
+    "wheat": [
+        {
+            "id": "wheat_rust",
+            "name": "Wheat Rust (Yellow Rust)",
+            "scientific_name": "Puccinia striiformis",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "Yellow-orange pustules in stripes along leaf veins, severe in cool weather"
+        },
+        {
+            "id": "powdery_mildew_wheat",
+            "name": "Powdery Mildew",
+            "scientific_name": "Blumeria graminis",
+            "symptoms": {
+                "yellow_spots": false,
+                "leaf_curl": false,
+                "white_powder": true,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": false,
+                "stunted_growth": true
+            },
+            "description": "White powdery patches on leaves and stems, reducing photosynthesis"
+        },
+        {
+            "id": "septoria_tritici_blotch",
+            "name": "Septoria Tritici Blotch",
+            "scientific_name": "Zymoseptoria tritici",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": true,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Tan lesions with dark specks (pycnidia) on leaves, spreads in wet conditions"
+        },
+        {
+            "id": "tan_spot",
+            "name": "Tan Spot",
+            "scientific_name": "Pyrenophora tritici-repentis",
+            "symptoms": {
+                "yellow_spots": true,
+                "leaf_curl": false,
+                "white_powder": false,
+                "edge_drying": false,
+                "stem_rot": false,
+                "wilting": false,
+                "dark_spots": true,
+                "stunted_growth": false
+            },
+            "description": "Tan oval lesions with yellow halos and dark centers on leaves"
+        }
+    ]
+}

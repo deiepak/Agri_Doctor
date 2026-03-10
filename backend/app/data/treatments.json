@@ -1,0 +1,747 @@
+{
+    "early_blight": {
+        "disease_name": "Early Blight",
+        "organic": [
+            {
+                "name": "Neem Oil Spray",
+                "dosage": "5ml neem oil per liter of water",
+                "frequency": "Apply every 7-10 days",
+                "warning": "Apply in early morning or evening to avoid leaf burn. Test on a few leaves first."
+            },
+            {
+                "name": "Copper-Based Fungicide (Bordeaux Mixture)",
+                "dosage": "1% solution (10g copper sulfate + 10g lime per liter)",
+                "frequency": "Every 10-14 days during disease pressure",
+                "warning": "Can cause leaf burn in hot weather. Do not apply when temperatures exceed 30°C."
+            },
+            {
+                "name": "Baking Soda Solution",
+                "dosage": "1 tablespoon baking soda + 1 tablespoon oil per gallon of water",
+                "frequency": "Weekly application",
+                "warning": "May alter soil pH with repeated use. Rinse residue before harvest."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Mancozeb",
+                "dosage": "2-2.5g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Wear protective gloves and mask. Do not apply within 14 days of harvest."
+            },
+            {
+                "name": "Chlorothalonil",
+                "dosage": "2g per liter of water",
+                "frequency": "Every 7-14 days",
+                "warning": "Highly toxic to fish. Keep away from water sources. 7-day pre-harvest interval."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Crop Rotation",
+                "dosage": "Rotate with non-solanaceous crops for 2-3 years",
+                "frequency": "Every growing season",
+                "warning": "Avoid planting tomatoes, potatoes, or peppers in the same location."
+            },
+            {
+                "name": "Remove Infected Leaves",
+                "dosage": "Remove and destroy affected lower leaves immediately",
+                "frequency": "Check plants daily during disease season",
+                "warning": "Do not compost infected material. Burn or dispose in sealed bags."
+            },
+            {
+                "name": "Proper Spacing",
+                "dosage": "Maintain 60-90cm between plants",
+                "frequency": "At planting time",
+                "warning": "Good air circulation reduces humidity and disease spread."
+            }
+        ]
+    },
+    "late_blight": {
+        "disease_name": "Late Blight",
+        "organic": [
+            {
+                "name": "Copper Hydroxide",
+                "dosage": "2-3g per liter of water",
+                "frequency": "Every 5-7 days during wet weather",
+                "warning": "Copper can accumulate in soil. Monitor application carefully."
+            },
+            {
+                "name": "Trichoderma-Based Biocontrol",
+                "dosage": "4-5g per liter of water",
+                "frequency": "Every 10-15 days as preventive",
+                "warning": "Store in cool, dry place. Less effective once disease is established."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Metalaxyl + Mancozeb (Ridomil Gold)",
+                "dosage": "2.5g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Systemic fungicide. 14-day pre-harvest interval. Rotate with other fungicides."
+            },
+            {
+                "name": "Cymoxanil + Mancozeb",
+                "dosage": "2-3g per liter of water",
+                "frequency": "Every 7 days during active infection",
+                "warning": "Apply before rain. Re-apply after heavy rainfall. Wear protective equipment."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Certified Disease-Free Seeds",
+                "dosage": "Purchase from reputable sources only",
+                "frequency": "Every planting season",
+                "warning": "Infected seed tubers are the primary source of infection."
+            },
+            {
+                "name": "Destroy Volunteer Plants",
+                "dosage": "Remove all volunteer potato/tomato plants",
+                "frequency": "Throughout the growing season",
+                "warning": "Volunteer plants harbor the pathogen between seasons."
+            },
+            {
+                "name": "Improve Drainage",
+                "dosage": "Ensure fields drain within 24 hours after rain",
+                "frequency": "Before planting and ongoing",
+                "warning": "Standing water promotes disease development and spread."
+            }
+        ]
+    },
+    "septoria_leaf_spot": {
+        "disease_name": "Septoria Leaf Spot",
+        "organic": [
+            {
+                "name": "Neem Oil",
+                "dosage": "3-5ml per liter of water",
+                "frequency": "Weekly application",
+                "warning": "Apply in cooler parts of the day to prevent leaf burn."
+            },
+            {
+                "name": "Copper Fungicide",
+                "dosage": "2g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Excessive use can lead to copper toxicity in soil."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Chlorothalonil",
+                "dosage": "2-2.5g per liter of water",
+                "frequency": "Every 7-14 days",
+                "warning": "Apply before symptoms appear for best results. 7-day pre-harvest interval."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Mulching",
+                "dosage": "Apply 5-10cm layer of organic mulch around plants",
+                "frequency": "At transplanting",
+                "warning": "Prevents soil splash which spreads the fungus to lower leaves."
+            },
+            {
+                "name": "Stake Plants",
+                "dosage": "Support plants to keep foliage off ground",
+                "frequency": "At transplanting",
+                "warning": "Improves air circulation and reduces leaf wetness."
+            }
+        ]
+    },
+    "bacterial_wilt": {
+        "disease_name": "Bacterial Wilt",
+        "organic": [
+            {
+                "name": "Soil Solarization",
+                "dosage": "Cover moist soil with clear plastic for 4-6 weeks",
+                "frequency": "Before planting, during hottest months",
+                "warning": "Most effective in summer. Kills beneficial organisms too."
+            },
+            {
+                "name": "Trichoderma Application",
+                "dosage": "5g per liter of water, drench soil",
+                "frequency": "At planting and monthly",
+                "warning": "Preventive only. Cannot cure infected plants."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Streptomycin Sulfate",
+                "dosage": "0.5-1g per liter of water as soil drench",
+                "frequency": "At transplanting",
+                "warning": "Restricted antibiotic. Check local regulations. Not curative for established infections."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Resistant Varieties",
+                "dosage": "Select varieties with bacterial wilt resistance",
+                "frequency": "Every planting season",
+                "warning": "Resistance may vary by region and bacterial strain."
+            },
+            {
+                "name": "Remove Infected Plants",
+                "dosage": "Immediately uproot and destroy infected plants with surrounding soil",
+                "frequency": "As soon as symptoms appear",
+                "warning": "Do not compost. Bacteria survive in soil for years."
+            },
+            {
+                "name": "Clean Tools",
+                "dosage": "Disinfect tools with 10% bleach solution between plants",
+                "frequency": "During all field operations",
+                "warning": "Bacteria spread easily through contaminated tools and water."
+            }
+        ]
+    },
+    "leaf_curl_virus": {
+        "disease_name": "Tomato Yellow Leaf Curl Virus",
+        "organic": [
+            {
+                "name": "Neem Oil (for whitefly control)",
+                "dosage": "5ml per liter of water",
+                "frequency": "Every 5-7 days",
+                "warning": "Controls whiteflies that spread the virus. Cannot cure infected plants."
+            },
+            {
+                "name": "Yellow Sticky Traps",
+                "dosage": "10-20 traps per 100 sq meters",
+                "frequency": "Install at planting, replace when covered",
+                "warning": "Monitoring and mass trapping of whiteflies."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Imidacloprid (for whitefly)",
+                "dosage": "0.3ml per liter of water",
+                "frequency": "Every 10-14 days",
+                "warning": "Systemic insecticide. Toxic to bees. Do not apply during flowering."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Virus-Free Transplants",
+                "dosage": "Source seedlings from certified nurseries",
+                "frequency": "Every planting",
+                "warning": "Inspect seedlings carefully before purchase."
+            },
+            {
+                "name": "Install Insect-Proof Nets",
+                "dosage": "50-mesh netting over nurseries and transplants",
+                "frequency": "Throughout growing season",
+                "warning": "Physical barrier prevents whitefly access."
+            },
+            {
+                "name": "Remove Infected Plants",
+                "dosage": "Uproot and destroy infected plants immediately",
+                "frequency": "Throughout season",
+                "warning": "Infected plants serve as virus source for healthy plants."
+            }
+        ]
+    },
+    "potato_late_blight": {
+        "disease_name": "Potato Late Blight",
+        "organic": [
+            {
+                "name": "Copper Hydroxide",
+                "dosage": "2-3g per liter of water",
+                "frequency": "Every 5-7 days in wet weather",
+                "warning": "Start applications before symptoms appear. Copper builds up in soil."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Metalaxyl + Mancozeb",
+                "dosage": "2.5g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Alternate with non-metalaxyl products to prevent resistance."
+            },
+            {
+                "name": "Dimethomorph",
+                "dosage": "1g per liter of water",
+                "frequency": "Every 7-14 days",
+                "warning": "Systemic fungicide. 14-day pre-harvest interval."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Plant Certified Seed Potatoes",
+                "dosage": "Use only disease-free certified seeds",
+                "frequency": "Every season",
+                "warning": "Infected seed tubers are primary inoculum source."
+            },
+            {
+                "name": "Hill Potatoes Properly",
+                "dosage": "Mound soil 15-20cm around stems",
+                "frequency": "2-3 times during growing season",
+                "warning": "Protects tubers from spore wash-down during rain."
+            }
+        ]
+    },
+    "potato_early_blight": {
+        "disease_name": "Potato Early Blight",
+        "organic": [
+            {
+                "name": "Copper Fungicide",
+                "dosage": "2g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Apply before disease appears for prevention."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Mancozeb",
+                "dosage": "2-2.5g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Contact fungicide. Good coverage essential."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Balanced Fertilization",
+                "dosage": "Apply recommended NPK based on soil test",
+                "frequency": "At planting and during growth",
+                "warning": "Stressed, nutrient-deficient plants are more susceptible."
+            }
+        ]
+    },
+    "potato_blackleg": {
+        "disease_name": "Blackleg",
+        "organic": [
+            {
+                "name": "Proper Seed Selection",
+                "dosage": "Use only healthy, certified seed tubers",
+                "frequency": "Every planting",
+                "warning": "Reject any seed with soft rot or discoloration."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "No effective chemical control",
+                "dosage": "N/A",
+                "frequency": "N/A",
+                "warning": "Prevention is the only effective management strategy."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Improve Field Drainage",
+                "dosage": "Ensure complete drainage of water-logged areas",
+                "frequency": "Before planting",
+                "warning": "Wet conditions promote bacterial growth and spread."
+            },
+            {
+                "name": "Allow Seed to Heal",
+                "dosage": "Cure cut seed pieces at 15-20°C for 2-3 days",
+                "frequency": "Before planting",
+                "warning": "Unhealed cut surfaces are entry points for bacteria."
+            }
+        ]
+    },
+    "rice_blast": {
+        "disease_name": "Rice Blast",
+        "organic": [
+            {
+                "name": "Trichoderma viride",
+                "dosage": "4g per liter of water, foliar spray",
+                "frequency": "Every 15 days",
+                "warning": "Apply early as prevention. Less effective on established disease."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Tricyclazole",
+                "dosage": "0.6g per liter of water",
+                "frequency": "At disease appearance and 10 days later",
+                "warning": "Systemic fungicide. 21-day pre-harvest interval."
+            },
+            {
+                "name": "Isoprothiolane",
+                "dosage": "1.5ml per liter of water",
+                "frequency": "2-3 applications at 10-day intervals",
+                "warning": "Apply at early disease stage for best results."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Resistant Varieties",
+                "dosage": "Select blast-resistant rice varieties for your region",
+                "frequency": "Every season",
+                "warning": "Resistance may break down over time. Use multiple resistant lines."
+            },
+            {
+                "name": "Balanced Nitrogen",
+                "dosage": "Split nitrogen applications, avoid excess",
+                "frequency": "During crop growth",
+                "warning": "Excess nitrogen makes plants more susceptible to blast."
+            }
+        ]
+    },
+    "bacterial_leaf_blight": {
+        "disease_name": "Bacterial Leaf Blight",
+        "organic": [
+            {
+                "name": "Copper Oxychloride",
+                "dosage": "3g per liter of water",
+                "frequency": "Every 7-10 days from disease appearance",
+                "warning": "Protectant only. Cannot cure infected tissue."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Streptomycin + Tetracycline",
+                "dosage": "0.5g per liter of water",
+                "frequency": "At disease onset and 7 days later",
+                "warning": "Antibiotic - check local regulations. Alternate with copper."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Certified Seed",
+                "dosage": "Plant seed from disease-free sources",
+                "frequency": "Every season",
+                "warning": "Bacteria can be seed-borne."
+            },
+            {
+                "name": "Drain Fields During Storms",
+                "dosage": "Lower water level before predicted storms",
+                "frequency": "As needed",
+                "warning": "Typhoon and strong winds spread bacteria via leaf wounds."
+            }
+        ]
+    },
+    "wheat_rust": {
+        "disease_name": "Wheat Rust (Yellow Rust)",
+        "organic": [
+            {
+                "name": "Limited Organic Options",
+                "dosage": "Focus on resistant varieties and cultural practices",
+                "frequency": "N/A",
+                "warning": "No highly effective organic fungicides for rust."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Propiconazole",
+                "dosage": "0.5ml per liter of water",
+                "frequency": "At first sign of disease, repeat in 14 days if needed",
+                "warning": "Systemic fungicide. Apply before 5% leaf area infected."
+            },
+            {
+                "name": "Tebuconazole",
+                "dosage": "0.75ml per liter of water",
+                "frequency": "Single application at disease threshold",
+                "warning": "35-day pre-harvest interval. Wear protective equipment."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Plant Resistant Varieties",
+                "dosage": "Use locally recommended rust-resistant cultivars",
+                "frequency": "Every season",
+                "warning": "Rust races evolve. Monitor variety performance yearly."
+            },
+            {
+                "name": "Early Sowing",
+                "dosage": "Plant at recommended early dates for your region",
+                "frequency": "Each season",
+                "warning": "Late-sown wheat is more susceptible to rust."
+            }
+        ]
+    },
+    "powdery_mildew_wheat": {
+        "disease_name": "Powdery Mildew",
+        "organic": [
+            {
+                "name": "Sulfur Dust",
+                "dosage": "3-4kg per hectare, dusting",
+                "frequency": "Every 7-10 days when disease appears",
+                "warning": "Do not apply when temperature exceeds 30°C. May cause leaf burn."
+            },
+            {
+                "name": "Potassium Bicarbonate",
+                "dosage": "5g per liter of water",
+                "frequency": "Weekly sprays",
+                "warning": "Most effective as preventive treatment."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Triadimefon",
+                "dosage": "0.5g per liter of water",
+                "frequency": "At disease onset, repeat in 14 days",
+                "warning": "Systemic fungicide. Do not exceed 2 applications per season."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Avoid Dense Planting",
+                "dosage": "Maintain recommended seed rate for your variety",
+                "frequency": "At sowing",
+                "warning": "Dense canopy increases humidity and disease risk."
+            },
+            {
+                "name": "Destroy Crop Residue",
+                "dosage": "Incorporate stubble after harvest",
+                "frequency": "After harvest",
+                "warning": "Fungus survives on crop residue."
+            }
+        ]
+    },
+    "brown_spot": {
+        "disease_name": "Rice Brown Spot",
+        "organic": [
+            {
+                "name": "Neem-Based Products",
+                "dosage": "3ml per liter of water",
+                "frequency": "Every 10 days",
+                "warning": "Primarily helps reduce severity, not eliminate disease."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Mancozeb",
+                "dosage": "2.5g per liter of water",
+                "frequency": "At disease onset and 10 days later",
+                "warning": "Contact fungicide. Thorough coverage needed."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Balanced Fertilization",
+                "dosage": "Apply potassium and ensure adequate nutrition",
+                "frequency": "Based on soil test",
+                "warning": "Disease is associated with nutrient-stressed plants."
+            },
+            {
+                "name": "Use Healthy Seed",
+                "dosage": "Treat seed with fungicide before planting",
+                "frequency": "Every planting",
+                "warning": "Fungus is seed-borne."
+            }
+        ]
+    },
+    "leaf_mold": {
+        "disease_name": "Leaf Mold",
+        "organic": [
+            {
+                "name": "Neem Oil Spray",
+                "dosage": "5ml neem oil per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Apply in evening to prevent leaf burn. Ensure good leaf coverage on undersides."
+            },
+            {
+                "name": "Baking Soda Solution",
+                "dosage": "1 tablespoon baking soda per gallon of water with a drop of liquid soap",
+                "frequency": "Every 7 days as preventive",
+                "warning": "May affect soil pH with repeated use."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Chlorothalonil",
+                "dosage": "2g per liter of water",
+                "frequency": "Every 7-14 days",
+                "warning": "Apply before symptoms for best results. 7-day pre-harvest interval. Wear protective gear."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Improve Ventilation",
+                "dosage": "Space plants 60-90cm apart, prune lower branches",
+                "frequency": "Throughout growing season",
+                "warning": "High humidity and poor air circulation promote leaf mold."
+            },
+            {
+                "name": "Avoid Overhead Watering",
+                "dosage": "Use drip irrigation or water at soil level",
+                "frequency": "Every watering",
+                "warning": "Wet leaves promote fungal growth."
+            }
+        ]
+    },
+    "spider_mites": {
+        "disease_name": "Spider Mites (Two-spotted)",
+        "organic": [
+            {
+                "name": "Neem Oil Spray",
+                "dosage": "5ml neem oil per liter of water",
+                "frequency": "Every 5-7 days until controlled",
+                "warning": "Spray undersides of leaves thoroughly. Apply in cool hours."
+            },
+            {
+                "name": "Insecticidal Soap",
+                "dosage": "20ml per liter of water",
+                "frequency": "Every 5-7 days, 3 applications",
+                "warning": "Must contact mites directly to be effective. May need repeated applications."
+            },
+            {
+                "name": "Water Spray",
+                "dosage": "Strong jet of water on leaf undersides",
+                "frequency": "Daily for 3-5 days",
+                "warning": "Simple but effective for early infestations. Dislodges mites and destroys webbing."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Abamectin",
+                "dosage": "0.5ml per liter of water",
+                "frequency": "2 applications, 7-10 days apart",
+                "warning": "Toxic to bees and aquatic organisms. 7-day pre-harvest interval. Wear gloves and mask."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Maintain Humidity",
+                "dosage": "Mist plants regularly in dry conditions",
+                "frequency": "Daily in dry weather",
+                "warning": "Spider mites thrive in hot, dry conditions."
+            },
+            {
+                "name": "Introduce Predatory Mites",
+                "dosage": "Release Phytoseiulus persimilis, 2-5 per plant",
+                "frequency": "At first sign of spider mites",
+                "warning": "Biological control. Most effective in greenhouse settings."
+            }
+        ]
+    },
+    "target_spot": {
+        "disease_name": "Target Spot",
+        "organic": [
+            {
+                "name": "Copper Fungicide",
+                "dosage": "2-3g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Start at first sign of disease. May cause copper accumulation in soil."
+            },
+            {
+                "name": "Neem Oil",
+                "dosage": "3-5ml per liter of water",
+                "frequency": "Weekly",
+                "warning": "Apply in evening. Helps suppress fungal spread."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Chlorothalonil",
+                "dosage": "2g per liter of water",
+                "frequency": "Every 7-14 days",
+                "warning": "Contact fungicide. Apply before rainy periods. 7-day pre-harvest interval."
+            },
+            {
+                "name": "Azoxystrobin",
+                "dosage": "1ml per liter of water",
+                "frequency": "Every 10-14 days, max 3 applications",
+                "warning": "Systemic fungicide. Rotate with other modes of action to prevent resistance."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Remove Infected Debris",
+                "dosage": "Clear all fallen leaves and infected plant material",
+                "frequency": "Weekly during disease season",
+                "warning": "Fungus survives on crop debris between seasons."
+            },
+            {
+                "name": "Crop Rotation",
+                "dosage": "Avoid planting tomatoes in the same spot for 2-3 years",
+                "frequency": "Every growing season",
+                "warning": "Reduces soil-borne inoculum buildup."
+            }
+        ]
+    },
+    "bacterial_spot": {
+        "disease_name": "Bacterial Spot",
+        "organic": [
+            {
+                "name": "Copper Hydroxide",
+                "dosage": "2-3g per liter of water",
+                "frequency": "Every 7-10 days starting before symptoms",
+                "warning": "Protectant only. Cannot cure infected tissue. Copper builds up in soil."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "Copper + Mancozeb",
+                "dosage": "Copper 2g + Mancozeb 2g per liter of water",
+                "frequency": "Every 7-10 days",
+                "warning": "Combination provides better coverage. 14-day pre-harvest interval."
+            },
+            {
+                "name": "Streptomycin",
+                "dosage": "0.5g per liter of water",
+                "frequency": "Every 7 days during active infection",
+                "warning": "Antibiotic - check local regulations. Resistance can develop quickly."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Disease-Free Seeds",
+                "dosage": "Purchase certified pathogen-free seed",
+                "frequency": "Every planting",
+                "warning": "Bacteria can be seed-borne. Hot water seed treatment (50°C for 25 min) reduces contamination."
+            },
+            {
+                "name": "Avoid Working in Wet Fields",
+                "dosage": "Wait until plants are dry before pruning or harvesting",
+                "frequency": "Throughout season",
+                "warning": "Bacteria spread rapidly through water splash and contact."
+            }
+        ]
+    },
+    "mosaic_virus": {
+        "disease_name": "Tomato Mosaic Virus",
+        "organic": [
+            {
+                "name": "No Cure Available",
+                "dosage": "Remove and destroy infected plants immediately",
+                "frequency": "As soon as symptoms appear",
+                "warning": "No organic treatment can cure viral infections. Focus on prevention."
+            },
+            {
+                "name": "Milk Spray (Preventive)",
+                "dosage": "1 part milk to 9 parts water",
+                "frequency": "Weekly as preventive",
+                "warning": "Some evidence of reducing viral transmission. Not a cure."
+            }
+        ],
+        "chemical": [
+            {
+                "name": "No Chemical Cure",
+                "dosage": "N/A",
+                "frequency": "N/A",
+                "warning": "No chemical treatment exists for viral diseases. Prevention is the only strategy."
+            }
+        ],
+        "prevention": [
+            {
+                "name": "Use Resistant Varieties",
+                "dosage": "Select TMV/ToMV resistant cultivars (look for 'T' or 'TMV' resistance codes)",
+                "frequency": "Every planting",
+                "warning": "Most reliable prevention method."
+            },
+            {
+                "name": "Sanitize Hands and Tools",
+                "dosage": "Wash hands with soap, dip tools in 10% bleach between plants",
+                "frequency": "During all plant handling",
+                "warning": "Virus spreads easily by touch. Smokers should wash hands before handling plants (tobacco mosaic cross-infection)."
+            },
+            {
+                "name": "Remove Infected Plants",
+                "dosage": "Uproot and destroy (burn or seal in bags) all infected plants",
+                "frequency": "Immediately upon detection",
+                "warning": "Do not compost. Virus can persist in dead plant material."
+            }
+        ]
+    },
+    "unknown": {
+        "disease_name": "Unknown Disease",
+        "organic": [],
+        "chemical": [],
+        "prevention": [
+            {
+                "name": "Consult Local Expert",
+                "dosage": "Contact your local agricultural extension office",
+                "frequency": "As soon as possible",
+                "warning": "Professional diagnosis is recommended for accurate treatment."
+            }
+        ]
+    }
+}
