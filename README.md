@@ -139,27 +139,6 @@ In order to optimize local processing speeds while retaining high accuracy, the 
 2. **Tier 2 (Uncommon Models):** If the image is highly contested, it passes through an expanded local model containing the less common diseases (Threshold: 70%).
 3. **Tier 3 (OpenAI Vision Fallback):** If local models fail or the plant type is not inherently trained locally (e.g. Rice/Wheat), the base64 image gracefully cascades to GPT-4o Vision to infer the disease contextually.
 
-## 🌾 Supported Plants & Diseases
-
-### Tomato 🍅
-- Early Blight (Common)
-- Late Blight (Common)
-- Septoria Leaf Spot (Common)
-- Tomato Yellow Leaf Curl Virus (Common)
-- Leaf Mold 
-- Target Spot
-- Bacterial Spot
-- Mosaic Virus
-- Spider Mites
-
-### Potato 🥔
-- Late Blight 
-- Early Blight 
-- Blackleg 
-- Common Scab
-
-### Rice & Wheat 🌾
-- *Full fall-through natively to OpenAI Tier 3 Model* 
 
 ## 🛡️ Safety & Disclaimers
 
