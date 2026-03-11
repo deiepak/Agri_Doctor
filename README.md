@@ -185,6 +185,3 @@ MOCK_MODE=false                     # Optional (skips OpenAI call to save credit
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
----
-
-Built with ❤️ for farmers
