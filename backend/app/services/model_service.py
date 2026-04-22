@@ -17,7 +17,7 @@ from typing import Optional
 # Lazy imports - TensorFlow is heavy, only load when needed
 _tf = None
 _models_cache: dict = {}
-_model_config: dict | None = None
+_model_config: Optional[dict] = None
 
 MODEL_DIR = Path(__file__).parent.parent / "models"
 CONFIG_FILE = MODEL_DIR / "model_config.json"

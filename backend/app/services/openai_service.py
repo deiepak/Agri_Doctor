@@ -65,10 +65,12 @@ Rephrase this in {language}, making it:
 Do NOT invent new treatments or change dosages. Only rephrase what is given."""
 
 
+from typing import Optional
+
 async def analyze_image(
     image_base64: str,
     plant_type: str,
-    location: str | None = None
+    location: Optional[str] = None
 ) -> dict:
     """Analyze a plant leaf image for diseases using GPT-4 Vision."""
     

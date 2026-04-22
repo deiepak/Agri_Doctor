@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 from app.services.model_service import run_cascade, has_models_for_plant
 from app.services.openai_service import analyze_image as openai_analyze
 from app.core.config import get_settings
@@ -11,7 +12,7 @@ settings = get_settings()
 class AnalyzeImageRequest(BaseModel):
     image: str  # base64 encoded image
     plant_type: str  # tomato, potato, rice, wheat
-    location: str | None = None
+    location: Optional[str] = None
 
 
 class DiseasePrediction(BaseModel):

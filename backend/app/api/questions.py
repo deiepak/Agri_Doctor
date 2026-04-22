@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 
 router = APIRouter()
 
@@ -32,8 +33,8 @@ class AskQuestionRequest(BaseModel):
 
 
 class AskQuestionResponse(BaseModel):
-    nextQuestion: str | None
-    confirmedDisease: DiseasePrediction | None
+    nextQuestion: Optional[str]
+    confirmedDisease: Optional[DiseasePrediction]
     remainingCandidates: list[DiseasePrediction]
     isComplete: bool
 

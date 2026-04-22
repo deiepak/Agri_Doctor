@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
+from typing import Optional
 from app.services.openai_service import generate_explanation
 
 router = APIRouter()
@@ -13,7 +14,7 @@ class SymptomAnswer(BaseModel):
 class ConfirmDiseaseRequest(BaseModel):
     disease_id: str
     plant_type: str
-    image_observations: str | None = None
+    image_observations: Optional[str] = None
     symptom_answers: list[SymptomAnswer] = []
     language: str = "en"
 
