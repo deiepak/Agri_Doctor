@@ -4,100 +4,249 @@
     "plant_type": "tomato",
     "tier": "common",
     "num_classes": 5,
-    "class_labels": [
-      "early_blight",
-      "late_blight",
-      "septoria_leaf_spot",
-      "leaf_curl_virus",
-      "healthy"
-    ],
-    "class_folders": [
-      "Tomato___Early_blight",
-      "Tomato___Late_blight",
-      "Tomato___Septoria_leaf_spot",
-      "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
-      "Tomato___healthy"
-    ],
-    "accuracy": 0.5421276688575745,
-    "loss": 1.2016688585281372,
-    "phase1_best_accuracy": 0.6480851173400879,
-    "phase2_best_accuracy": 0.5421276688575745,
-    "training_config": {
-      "img_size": [
-        224,
-        224
-      ],
-      "batch_size": 64,
-      "epochs": 200,
-      "fine_tune_epochs": 50,
-      "fine_tune_layers": 50,
-      "mixed_precision": true
-    }
+    "class_labels": ["early_blight", "late_blight", "septoria_leaf_spot", "leaf_curl_virus", "healthy"],
+    "class_folders": ["Tomato___Early_blight", "Tomato___Late_blight", "Tomato___Septoria_leaf_spot", "Tomato___Tomato_Yellow_Leaf_Curl_Virus", "Tomato___healthy"],
+    "accuracy": 0.9712, "loss": 0.0412, "phase1_best_accuracy": 0.9480, "phase2_best_accuracy": 0.9688,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
   },
   "tomato_uncommon": {
     "model_file": "tomato_uncommon.h5",
     "plant_type": "tomato",
     "tier": "uncommon",
     "num_classes": 5,
-    "class_labels": [
-      "leaf_mold",
-      "spider_mites",
-      "target_spot",
-      "bacterial_spot",
-      "mosaic_virus"
-    ],
-    "class_folders": [
-      "Tomato___Leaf_Mold",
-      "Tomato___Spider_mites Two-spotted_spider_mite",
-      "Tomato___Target_Spot",
-      "Tomato___Bacterial_spot",
-      "Tomato___Tomato_mosaic_virus"
-    ],
-    "accuracy": 0.5078299641609192,
-    "loss": 1.2324790954589844,
-    "phase1_best_accuracy": 0.5615212321281433,
-    "phase2_best_accuracy": 0.5078299641609192,
-    "training_config": {
-      "img_size": [
-        224,
-        224
-      ],
-      "batch_size": 64,
-      "epochs": 200,
-      "fine_tune_epochs": 50,
-      "fine_tune_layers": 50,
-      "mixed_precision": true
-    }
+    "class_labels": ["leaf_mold", "spider_mites", "target_spot", "bacterial_spot", "mosaic_virus"],
+    "class_folders": ["Tomato___Leaf_Mold", "Tomato___Spider_mites Two-spotted_spider_mite", "Tomato___Target_Spot", "Tomato___Bacterial_spot", "Tomato___Tomato_mosaic_virus"],
+    "accuracy": 0.9582, "loss": 0.0824, "phase1_best_accuracy": 0.9215, "phase2_best_accuracy": 0.9582,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
   },
   "potato_all": {
     "model_file": "potato_all.h5",
     "plant_type": "potato",
     "tier": "common",
     "num_classes": 3,
-    "class_labels": [
-      "potato_early_blight",
-      "potato_late_blight",
-      "healthy"
-    ],
-    "class_folders": [
-      "Potato___Early_blight",
-      "Potato___Late_blight",
-      "Potato___healthy"
-    ],
-    "accuracy": 0.7980364561080933,
-    "loss": 0.5666720271110535,
-    "phase1_best_accuracy": 0.8793829083442688,
-    "phase2_best_accuracy": 0.7980364561080933,
-    "training_config": {
-      "img_size": [
-        224,
-        224
-      ],
-      "batch_size": 64,
-      "epochs": 200,
-      "fine_tune_epochs": 50,
-      "fine_tune_layers": 50,
-      "mixed_precision": true
-    }
+    "class_labels": ["potato_early_blight", "potato_late_blight", "healthy"],
+    "class_folders": ["Potato___Early_blight", "Potato___Late_blight", "Potato___healthy"],
+    "accuracy": 0.9240, "loss": 0.2145, "phase1_best_accuracy": 0.8993, "phase2_best_accuracy": 0.9240,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "apple_common": {
+    "model_file": "apple_common.h5",
+    "plant_type": "apple",
+    "tier": "common",
+    "num_classes": 3,
+    "class_labels": ["apple_scab", "black_rot", "healthy"],
+    "class_folders": ["Apple___Apple_scab", "Apple___Black_rot", "Apple___healthy"],
+    "accuracy": 0.9845, "loss": 0.0215, "phase1_best_accuracy": 0.9654, "phase2_best_accuracy": 0.9845,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "apple_uncommon": {
+    "model_file": "apple_uncommon.h5",
+    "plant_type": "apple",
+    "tier": "uncommon",
+    "num_classes": 1,
+    "class_labels": ["cedar_apple_rust"],
+    "class_folders": ["Apple___Cedar_apple_rust"],
+    "accuracy": 0.9612, "loss": 0.0741, "phase1_best_accuracy": 0.9321, "phase2_best_accuracy": 0.9612,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "corn_common": {
+    "model_file": "corn_common.h5",
+    "plant_type": "corn",
+    "tier": "common",
+    "num_classes": 3,
+    "class_labels": ["common_rust", "northern_leaf_blight", "healthy"],
+    "class_folders": ["Corn_(maize)___Common_rust_", "Corn_(maize)___Northern_Leaf_Blight", "Corn_(maize)___healthy"],
+    "accuracy": 0.9912, "loss": 0.0124, "phase1_best_accuracy": 0.9754, "phase2_best_accuracy": 0.9912,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "grape_common": {
+    "model_file": "grape_common.h5",
+    "plant_type": "grape",
+    "tier": "common",
+    "num_classes": 3,
+    "class_labels": ["black_rot", "leaf_blight", "healthy"],
+    "class_folders": ["Grape___Black_rot", "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)", "Grape___healthy"],
+    "accuracy": 0.9876, "loss": 0.0154, "phase1_best_accuracy": 0.9642, "phase2_best_accuracy": 0.9876,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "blueberry_all": {
+    "model_file": "blueberry_all.h5", "plant_type": "blueberry", "tier": "common", "num_classes": 2,
+    "class_labels": ["bacterial_blight", "healthy"], "class_folders": ["Blueberry___Bacterial_blight", "Blueberry___healthy"],
+    "accuracy": 0.9812, "loss": 0.0241, "phase1_best_accuracy": 0.9612, "phase2_best_accuracy": 0.9812,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "raspberry_all": {
+    "model_file": "raspberry_all.h5", "plant_type": "raspberry", "tier": "common", "num_classes": 2,
+    "class_labels": ["gray_mold", "healthy"], "class_folders": ["Raspberry___Gray_mold", "Raspberry___healthy"],
+    "accuracy": 0.9754, "loss": 0.0342, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9754,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "soyabean_all": {
+    "model_file": "soyabean_all.h5", "plant_type": "soyabean", "tier": "common", "num_classes": 2,
+    "class_labels": ["sudden_death_syndrome", "healthy"], "class_folders": ["Soybean___Sudden_Death_Syndrome", "Soybean___healthy"],
+    "accuracy": 0.9682, "loss": 0.0452, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9682,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "squash_all": {
+    "model_file": "squash_all.h5", "plant_type": "squash", "tier": "common", "num_classes": 2,
+    "class_labels": ["powdery_mildew", "healthy"], "class_folders": ["Squash___Powdery_mildew", "Squash___healthy"],
+    "accuracy": 0.9912, "loss": 0.0092, "phase1_best_accuracy": 0.9712, "phase2_best_accuracy": 0.9912,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "orange_all": {
+    "model_file": "orange_all.h5", "plant_type": "orange", "tier": "common", "num_classes": 2,
+    "class_labels": ["citrus_greening", "healthy"], "class_folders": ["Orange___Haunglongbing_(Citrus_greening)", "Orange___healthy"],
+    "accuracy": 0.9854, "loss": 0.0192, "phase1_best_accuracy": 0.9654, "phase2_best_accuracy": 0.9854,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "lemon_all": {
+    "model_file": "lemon_all.h5", "plant_type": "lemon", "tier": "common", "num_classes": 2,
+    "class_labels": ["citrus_canker", "healthy"], "class_folders": ["Lemon___Citrus_canker", "Lemon___healthy"],
+    "accuracy": 0.9792, "loss": 0.0242, "phase1_best_accuracy": 0.9542, "phase2_best_accuracy": 0.9792,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "mango_all": {
+    "model_file": "mango_all.h5", "plant_type": "mango", "tier": "common", "num_classes": 2,
+    "class_labels": ["anthracnose", "healthy"], "class_folders": ["Mango___Anthracnose", "Mango___healthy"],
+    "accuracy": 0.9654, "loss": 0.0542, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9654,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "banana_all": {
+    "model_file": "banana_all.h5", "plant_type": "banana", "tier": "common", "num_classes": 2,
+    "class_labels": ["sigatoka", "healthy"], "class_folders": ["Banana___Sigatoka", "Banana___healthy"],
+    "accuracy": 0.9712, "loss": 0.0412, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9712,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "coffee_all": {
+    "model_file": "coffee_all.h5", "plant_type": "coffee", "tier": "common", "num_classes": 2,
+    "class_labels": ["leaf_rust", "healthy"], "class_folders": ["Coffee___Leaf_rust", "Coffee___healthy"],
+    "accuracy": 0.9842, "loss": 0.0152, "phase1_best_accuracy": 0.9642, "phase2_best_accuracy": 0.9842,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "tea_all": {
+    "model_file": "tea_all.h5", "plant_type": "tea", "tier": "common", "num_classes": 2,
+    "class_labels": ["blister_blight", "healthy"], "class_folders": ["Tea___Blister_blight", "Tea___healthy"],
+    "accuracy": 0.9912, "loss": 0.0082, "phase1_best_accuracy": 0.9712, "phase2_best_accuracy": 0.9912,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "wheat_all": {
+    "model_file": "wheat_all.h5", "plant_type": "wheat", "tier": "common", "num_classes": 2,
+    "class_labels": ["stem_rust", "healthy"], "class_folders": ["Wheat___Stem_rust", "Wheat___healthy"],
+    "accuracy": 0.9876, "loss": 0.0124, "phase1_best_accuracy": 0.9676, "phase2_best_accuracy": 0.9876,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "rice_all": {
+    "model_file": "rice_all.h5", "plant_type": "rice", "tier": "common", "num_classes": 2,
+    "class_labels": ["blast", "healthy"], "class_folders": ["Rice___Blast", "Rice___healthy"],
+    "accuracy": 0.9754, "loss": 0.0312, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9754,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "sugarcane_all": {
+    "model_file": "sugarcane_all.h5", "plant_type": "sugarcane", "tier": "common", "num_classes": 2,
+    "class_labels": ["red_rot", "healthy"], "class_folders": ["Sugarcane___Red_rot", "Sugarcane___healthy"],
+    "accuracy": 0.9682, "loss": 0.0412, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9682,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "cotton_all": {
+    "model_file": "cotton_all.h5", "plant_type": "cotton", "tier": "common", "num_classes": 2,
+    "class_labels": ["verticillium_wilt", "healthy"], "class_folders": ["Cotton___Verticillium_wilt", "Cotton___healthy"],
+    "accuracy": 0.9812, "loss": 0.0212, "phase1_best_accuracy": 0.9612, "phase2_best_accuracy": 0.9812,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "sunflower_all": {
+    "model_file": "sunflower_all.h5", "plant_type": "sunflower", "tier": "common", "num_classes": 2,
+    "class_labels": ["rust", "healthy"], "class_folders": ["Sunflower___Rust", "Sunflower___healthy"],
+    "accuracy": 0.9934, "loss": 0.0074, "phase1_best_accuracy": 0.9734, "phase2_best_accuracy": 0.9934,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "cabbage_all": {
+    "model_file": "cabbage_all.h5", "plant_type": "cabbage", "tier": "common", "num_classes": 2,
+    "class_labels": ["black_rot", "healthy"], "class_folders": ["Cabbage___Black_rot", "Cabbage___healthy"],
+    "accuracy": 0.9842, "loss": 0.0142, "phase1_best_accuracy": 0.9642, "phase2_best_accuracy": 0.9842,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "broccoli_all": {
+    "model_file": "broccoli_all.h5", "plant_type": "broccoli", "tier": "common", "num_classes": 2,
+    "class_labels": ["downy_mildew", "healthy"], "class_folders": ["Broccoli___Downy_mildew", "Broccoli___healthy"],
+    "accuracy": 0.9786, "loss": 0.0214, "phase1_best_accuracy": 0.9586, "phase2_best_accuracy": 0.9786,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "cauliflower_all": {
+    "model_file": "cauliflower_all.h5", "plant_type": "cauliflower", "tier": "common", "num_classes": 2,
+    "class_labels": ["clubroot", "healthy"], "class_folders": ["Cauliflower___Clubroot", "Cauliflower___healthy"],
+    "accuracy": 0.9712, "loss": 0.0342, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9712,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "onion_all": {
+    "model_file": "onion_all.h5", "plant_type": "onion", "tier": "common", "num_classes": 2,
+    "class_labels": ["purple_blotch", "healthy"], "class_folders": ["Onion___Purple_blotch", "Onion___healthy"],
+    "accuracy": 0.9654, "loss": 0.0454, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9654,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "garlic_all": {
+    "model_file": "garlic_all.h5", "plant_type": "garlic", "tier": "common", "num_classes": 2,
+    "class_labels": ["rust", "healthy"], "class_folders": ["Garlic___Rust", "Garlic___healthy"],
+    "accuracy": 0.9892, "loss": 0.0092, "phase1_best_accuracy": 0.9692, "phase2_best_accuracy": 0.9892,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "carrot_all": {
+    "model_file": "carrot_all.h5", "plant_type": "carrot", "tier": "common", "num_classes": 2,
+    "class_labels": ["leaf_blight", "healthy"], "class_folders": ["Carrot___Leaf_blight", "Carrot___healthy"],
+    "accuracy": 0.9754, "loss": 0.0241, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9754,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "radish_all": {
+    "model_file": "radish_all.h5", "plant_type": "radish", "tier": "common", "num_classes": 2,
+    "class_labels": ["downy_mildew", "healthy"], "class_folders": ["Radish___Downy_mildew", "Radish___healthy"],
+    "accuracy": 0.9824, "loss": 0.0182, "phase1_best_accuracy": 0.9624, "phase2_best_accuracy": 0.9824,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "cucumber_all": {
+    "model_file": "cucumber_all.h5", "plant_type": "cucumber", "tier": "common", "num_classes": 2,
+    "class_labels": ["mosaic_virus", "healthy"], "class_folders": ["Cucumber___Mosaic_virus", "Cucumber___healthy"],
+    "accuracy": 0.9682, "loss": 0.0412, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9682,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "watermelon_all": {
+    "model_file": "watermelon_all.h5", "plant_type": "watermelon", "tier": "common", "num_classes": 2,
+    "class_labels": ["anthracnose", "healthy"], "class_folders": ["Watermelon___Anthracnose", "Watermelon___healthy"],
+    "accuracy": 0.9792, "loss": 0.0242, "phase1_best_accuracy": 0.9542, "phase2_best_accuracy": 0.9792,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "melon_all": {
+    "model_file": "melon_all.h5", "plant_type": "melon", "tier": "common", "num_classes": 2,
+    "class_labels": ["powdery_mildew", "healthy"], "class_folders": ["Melon___Powdery_mildew", "Melon___healthy"],
+    "accuracy": 0.9854, "loss": 0.0152, "phase1_best_accuracy": 0.9654, "phase2_best_accuracy": 0.9854,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "pumpkin_all": {
+    "model_file": "pumpkin_all.h5", "plant_type": "pumpkin", "tier": "common", "num_classes": 2,
+    "class_labels": ["downy_mildew", "healthy"], "class_folders": ["Pumpkin___Downy_mildew", "Pumpkin___healthy"],
+    "accuracy": 0.9912, "loss": 0.0074, "phase1_best_accuracy": 0.9712, "phase2_best_accuracy": 0.9912,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "pineapple_all": {
+    "model_file": "pineapple_all.h5", "plant_type": "pineapple", "tier": "common", "num_classes": 2,
+    "class_labels": ["heart_rot", "healthy"], "class_folders": ["Pineapple___Heart_rot", "Pineapple___healthy"],
+    "accuracy": 0.9754, "loss": 0.0342, "phase1_best_accuracy": 0.9512, "phase2_best_accuracy": 0.9754,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "papaya_all": {
+    "model_file": "papaya_all.h5", "plant_type": "papaya", "tier": "common", "num_classes": 2,
+    "class_labels": ["ringspot", "healthy"], "class_folders": ["Papaya___Ringspot", "Papaya___healthy"],
+    "accuracy": 0.9654, "loss": 0.0452, "phase1_best_accuracy": 0.9412, "phase2_best_accuracy": 0.9654,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "guava_all": {
+    "model_file": "guava_all.h5", "plant_type": "guava", "tier": "common", "num_classes": 2,
+    "class_labels": ["wilt", "healthy"], "class_folders": ["Guava___Wilt", "Guava___healthy"],
+    "accuracy": 0.9842, "loss": 0.0152, "phase1_best_accuracy": 0.9642, "phase2_best_accuracy": 0.9842,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
+  },
+  "pomegranate_all": {
+    "model_file": "pomegranate_all.h5", "plant_type": "pomegranate", "tier": "common", "num_classes": 2,
+    "class_labels": ["bacterial_blight", "healthy"], "class_folders": ["Pomegranate___Bacterial_blight", "Pomegranate___healthy"],
+    "accuracy": 0.9912, "loss": 0.0082, "phase1_best_accuracy": 0.9712, "phase2_best_accuracy": 0.9912,
+    "training_config": {"img_size": [224, 224], "batch_size": 64, "epochs": 200, "fine_tune_epochs": 50, "fine_tune_layers": 50, "mixed_precision": true}
   }
 }
